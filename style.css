@@ -65,7 +65,7 @@ body{
     color: hsl(75, 94%, 57%);
     font-weight: 100;
     font-size: 15px;
-    font-weight: bold;
+    font-weight: 500;
     
 }
 
@@ -73,6 +73,7 @@ body{
     font-size: 14px;
     color: white;
     margin-top: 15px;
+    font-weight: 300;
 
 
 
@@ -90,10 +91,18 @@ body{
     cursor: pointer;
     width: 110%;
     margin-top: 20px;
+    transition: background-color 2s ease;
 
+}
+.GitHub a{
+    color: white;
+    text-decoration: none;
 }
 .GitHub:hover{
     background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+.GitHub:hover a{
     color: black;
 }
 
@@ -109,6 +118,7 @@ body{
     width: 110%;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color .2s ease;
 
 }
 .Frontend-Mentor:hover{
@@ -129,11 +139,21 @@ body{
     width: 110%;
     border-radius: 5px;
     cursor: pointer;
-
+    transition: background-color 2s ease-out;
+    
 }
+
+.Linkedin a {
+    color: white;
+    text-decoration: none;
+    
+}
+.Linkedin:hover a{
+    color: black;
+}
+
 .Linkedin:hover{
     background-color: hsl(75, 94%, 57%);
-    color: black;
 }
 
 
@@ -150,6 +170,7 @@ body{
     width: 110%;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 2s ease;
 }
 .Twitter:hover{
     background-color: hsl(75, 94%, 57%);
@@ -168,7 +189,8 @@ body{
     border-radius: 5px;
     cursor: pointer;
     width: 110%;
-    transition: background-color 0.3s ease;
+    transition: background-color 2s ease-in-out;
+    
 
 }
 .Instagram:hover {
