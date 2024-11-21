@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: "Inter", sans-serif;
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.profile-card{
+    max-width: 370px;
+    width: 120%;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 30px;
+}
+
+.image{
+    object-position: center;
+    height: 100px;
+    width: 100%;
+    border-radius: 50%;
+    padding: 3px;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.image img{
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-card .text-data{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 1em;
+
+}
+
+.profile-card .text-data2{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: hsl(75, 94%, 57%);
+    font-weight: 100;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+.profile-card .text-data3 {
+    font-size: 14px;
+    color: white;
+    margin-top: 15px;
+
+
+
+}
+    
+.GitHub {
+    margin-bottom: 1em;
+    background-color: hsl(0, 0%, 20%);
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 110%;
+    margin-top: 20px;
+
+}
+.GitHub:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+
+
+.Frontend-Mentor {
+    margin-bottom: 1em;
+    background-color: hsl(0, 0%, 20%);
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 110%;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.Frontend-Mentor:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+
+
+
+.Linkedin {
+    margin-bottom: 1em;
+    background-color: hsl(0, 0%, 20%);
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 110%;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.Linkedin:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+
+
+
+.Twitter {
+    background-color: green;
+    margin-bottom: 1em;
+    background-color: hsl(0, 0%, 20%);
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 110%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Twitter:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+
+
+.Instagram {
+    margin-bottom: 1em;
+    background-color: hsl(0, 0%, 20%);
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 110%;
+    transition: background-color 0.3s ease;
+
+}
+.Instagram:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
